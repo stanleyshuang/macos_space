@@ -18,3 +18,7 @@ echo "搜尋可刪目錄"
 ./lschildren.sh "~/Library/Application Support"
 ./lschildren.sh "~/Library/Developer/Xcode/DerivedData"
 ./lschildren.sh "~/Library"
+
+echo "刪除暫存檔案"
+rm -r "/Library/Logs/*"
+rm -r "/Library/Updates/*"
